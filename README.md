@@ -76,6 +76,8 @@ You need **Amazon Ads API access** (this is Amazon's process, not this project's
 
 Plus **Node.js ≥ 20** (or Docker).
 
+> **New to all of this?** Follow the [step-by-step User Guide](docs/USER_GUIDE.md) — it walks through Amazon API onboarding, refresh-token generation, installation, and Claude setup with no prior knowledge assumed.
+
 ## Installation
 
 ```bash
