@@ -4,7 +4,7 @@
 
 Query Sponsored Products, Sponsored Brands and Sponsored Display structure and performance, run Amazon DSP reports, and execute Amazon Marketing Cloud (AMC) SQL workflows — all in natural language, with live data straight from the Amazon Ads API. No mock data, ever.
 
-[![CI](https://github.com/OWNER/amazon-ads-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/amazon-ads-mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/Imsamiullah09/amazon-ads-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/Imsamiullah09/amazon-ads-mcp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node >= 20](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](package.json)
 
@@ -79,7 +79,7 @@ Plus **Node.js ≥ 20** (or Docker).
 ## Installation
 
 ```bash
-git clone https://github.com/OWNER/amazon-ads-mcp.git
+git clone https://github.com/Imsamiullah09/amazon-ads-mcp.git
 cd amazon-ads-mcp
 npm ci
 npm run build

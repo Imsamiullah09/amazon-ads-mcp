@@ -5,7 +5,7 @@ Thanks for considering a contribution!
 ## Setup
 
 ```bash
-git clone https://github.com/OWNER/amazon-ads-mcp.git
+git clone https://github.com/Imsamiullah09/amazon-ads-mcp.git
 cd amazon-ads-mcp
 npm ci
 npm test
