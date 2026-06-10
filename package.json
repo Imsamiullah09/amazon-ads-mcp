@@ -1,0 +1,54 @@
+{
+  "name": "amazon-ads-mcp",
+  "version": "0.1.0",
+  "description": "Production-ready MCP server connecting Amazon Advertising API data (Sponsored Products, Sponsored Brands, Sponsored Display, DSP, AMC, Reporting v3) to Claude and other MCP-compatible clients.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bin": {
+    "amazon-ads-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "amazon-ads",
+    "amazon-advertising-api",
+    "sponsored-products",
+    "sponsored-brands",
+    "sponsored-display",
+    "amazon-dsp",
+    "amazon-marketing-cloud",
+    "claude"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.1.0"
+  }
+}

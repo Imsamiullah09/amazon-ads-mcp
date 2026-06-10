@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "amazon-ads": {
+      "command": "node",
+      "args": ["/absolute/path/to/amazon-ads-mcp/dist/index.js"],
+      "env": {
+        "AMAZON_ADS_CLIENT_ID": "amzn1.application-oa2-client.REPLACE_ME",
+        "AMAZON_ADS_CLIENT_SECRET": "REPLACE_ME",
+        "AMAZON_ADS_REFRESH_TOKEN": "Atzr|REPLACE_ME",
+        "AMAZON_ADS_REGION": "NA",
+        "AMAZON_ADS_PROFILE_ID": "",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}

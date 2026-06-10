@@ -1,0 +1,14 @@
+services:
+  amazon-ads-mcp:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MCP_TRANSPORT: http
+      MCP_HTTP_PORT: "3000"
+    ports:
+      # Bind to localhost only — this endpoint has no auth layer of its own.
+      # Front it with your own reverse proxy / auth for remote access.
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - ./reports-output:/app/reports-output
